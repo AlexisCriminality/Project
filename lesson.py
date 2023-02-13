@@ -31,6 +31,7 @@ def pendulum_stop(ampl_start, ampl_finish):
         ampl_start -= ampl_start * 0.084
     return count
 
+
 ampl_start = float(input('Введите начальную амплитуду: '))
 ampl_finish = float(input('Введите амплитуду остановки: '))
 
